@@ -1,0 +1,331 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav{
+    /* border: 2px solid; */
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+} 
+
+nav>span>img{
+    height: 100px;
+}
+
+nav>ol{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid; */
+    width: 600px;
+    list-style: none;
+    text-transform: uppercase;
+    height: 100px;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 50px; 
+} 
+
+nav>ol>li:first-child{
+    color: lightslategray;
+}
+
+nav>ol>li:hover{
+    color: black;
+    cursor: pointer;
+}
+
+#sec1{
+    /* border: 2px solid; */
+    height: 500px;
+    background-image: url("./assests/Ray+Romano+Loft+renovation+nyc+brooklyn+hamptons+luxury+construction\ \(2\).jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#art1{
+    /* border: 2px solid; */
+    font-size: 50px;
+    font-weight: lighter;
+    width: 740px;
+    padding: 5px 10px;
+    background-color:rgba(255, 255, 255, .6);
+    position: relative;
+    top: 15%;
+    left: 5%;
+    
+}
+
+#p1{
+    /* border: 2px solid; */
+    font-size: 20px;
+    font-weight: lighter;
+    width: 800px;
+    padding: 10px 20px;
+    background-color:rgba(255, 255, 255, .6);
+    position: relative;
+    top: 20%;
+    left: 5%;
+    
+}
+
+#sec1 :last-child{
+    height: 150px;
+    /* margin-left:auto ; */
+    padding-left: 50%;
+    padding-top: 25%;
+}
+
+#div1{
+    padding:100px 0px  ;
+    /* border: 2px solid; */
+    margin: auto;
+    width: 65%;
+    /* line-height: 1; */
+}
+
+#div1 h1{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+#div1>p{
+    font-size: 18px;
+    color: #363636;
+    font-weight: 400;
+    font-family: proxima-nova;
+    font-style: normal;
+    line-height: 1.6em;
+
+}
+
+#sec2{
+    /* border: 2px solid; */
+    height: 800px;
+    background-image: url("./assests/Ray+Romano+Contracting+combination+renovation+luxury+contemporary+Upper+East+Side+NYC+Hamptons+Brooklyn+NJ.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#art2{
+    /* border: 2px solid; */
+    font-size: 40px;
+    font-weight: lighter;
+    width: 740px;
+    padding: 5px 10px;
+    background-color:rgba(255, 255, 255, .6);
+    word-spacing: 2; 
+    letter-spacing: 2;
+    position: relative;
+    top: 10%;
+    left: 5%;
+    
+}
+
+#div2{
+    padding:100px 0px  ;
+    /* border: 2px solid; */
+    margin: auto;
+    width: 65%;
+}
+
+#div2 h2{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+#div2 p{
+    font-size: 18px;
+    color: #363636;
+    font-weight: 400;
+    font-family: proxima-nova;
+    font-style: normal;
+    line-height: 1.5em;
+    word-wrap: break-word;
+}
+
+#sec3{
+    background-image: url("./assests/Ray+Romano+Hamptons+Sag+Harbor+renovation.jpg");
+    /* border: 2px solid; */
+    height: 800px;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#art3{
+    /* border: 2px solid; */
+    font-size: 40px;
+    font-weight: lighter;
+    width: 210px;
+    padding: 5px 10px;
+    background-color:rgba(255, 255, 255, .6);
+    word-spacing: 2; 
+    letter-spacing: 2;
+    position: relative;
+    top: 10%;
+    left: 5%;
+    
+}
+
+#div3{
+    padding:75px 0px  ;
+    /* border: 2px solid; */
+    margin: auto;
+    width: 65%;
+}
+
+#div3 h4{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+#div3 p{
+    font-size: 18px;
+    color: #363636;
+    font-weight: 400;
+    font-family: proxima-nova;
+    font-style: normal;
+    line-height: 1.5em;
+    word-wrap: break-word;
+}
+
+#sec4{
+    background-image: url("./assests/1040.JPG");
+    /* border: 2px solid; */
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#art4{
+    /* border: 2px solid; */
+    font-size: 40px;
+    font-weight: lighter;
+    width: 315px;
+    padding: 5px 10px;
+    background-color:rgba(255, 255, 255, .6);
+    word-spacing: 2; 
+    letter-spacing: 2;
+    position: relative;
+    top: 10%;
+    left: 5%;
+    
+}
+
+#div4{
+    padding:75px 0px  ;
+    /* border: 2px solid; */
+    margin: auto;
+    width: 65%;
+}
+
+#div4 h4{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 2.5;
+    font-style: oblique;
+}
+
+#div4 p{
+    font-size: 18px;
+    color: #363636;
+    font-weight: 400;
+    font-family: proxima-nova;
+    font-style: normal;
+    line-height: 1.5em;
+    word-wrap: break-word;
+}
+
+#sec5{
+    background-image: url("./assests/Custom+Closet+Ray+Rompano+Contracting+NYC+Brooklyn+Upper+east+Side+NYC+renovation.jpg");
+    /* border: 2px solid; */
+    height: 800px;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#art5{
+    /* border: 2px solid; */
+    font-size: 40px;
+    font-weight: lighter;
+    width: 205px;
+    padding: 5px 10px;
+    background-color:rgba(255, 255, 255, .6);
+    word-spacing: 2; 
+    letter-spacing: 2;
+    position: relative;
+    top: 10%;
+    left: 5%;
+    
+}
+
+#sec6 table {
+    margin: auto;
+    position: relative;
+    top: 60px;
+    color: #363636;
+}
+
+
+#sec6 table:hover{
+    cursor: pointer;
+
+}
+
+#sec6 table img{
+    height: 200px;
+    width: 310px;
+}
+
+#ft{
+    position: relative;
+    top: 150px;
+    /* border: 2px solid; */
+    height: 130px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+#ft1{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#sec7 a{
+    padding: 10px 3px 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+#a1{
+    position: absolute;
+    bottom: 75%;
+    border: 2px solid;
+    background-color: #fff;
+    padding: 5px 15px ;
+    color: black;
+    border-radius: 100%;
+    text-decoration: none;
+    border-style: none;
+}
+
